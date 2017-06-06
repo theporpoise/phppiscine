@@ -3,24 +3,51 @@
 <head>
 <title>Basics</title>
 <style type="text/css">
-	h1 {color: white; text-align: center;}
+	h1 {color: white; text-align: center; font-size: 150px;}
 	body {background-color: pink;}
-	#myimage {border:5px solid red;}
-	#myimage2 {border:5px solid blue;}
-	.myclass {color:purple;}
+	#keyboard {
+		border: 5px solid black; 
+		vertical-align: bottom;
+		display: inline-block;
+	}
+	#mushroom {
+		border: 5px solid black;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	#copyright {
+		font-style: italic;
+		font-family: monospace;
+		text-align: right;
+	}
 
 </style>
 
 </head>
 <body>
 
-<h1>&#123CODE&#125</h1>
-<p class=myclass>My first paragraph.</p>
-hop hop<br />
-hippidy hop <br />
-<img id="myimage" src="advantage-black.jpg">
-<img id="myimage2" src="mushroom.jpeg">
+<h1>&#123;&ndash;so bigger&ndash;&#125;</h1>
 
+<table border="0" align="center">
+  <tr>
+    <th><img id="keyboard" src="advantage-black.jpg"></th>
+    <th><img id="mushroom" src="mushroom.jpeg">
+</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.kinesis-ergo.com/">Kinesis Ergo</a></td>
+    <td><a href="https://us.foursigmatic.com/">Four Sigmatic</a>
+</td>
+  </tr>
+
+</table>
+
+
+<hr>
+
+<p id="copyright">&copy; mgould 2017<p>
+
+<br />
 
 </body>
 </html>
