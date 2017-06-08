@@ -1,0 +1,58 @@
+td {
+	border: 1px solid black;
+	width: 5vw;
+	height: 5vh;
+}
+table {
+	table-layout: fixed;
+}
+html,body,.fullheight {
+	height: 100%;
+	width: 100%;
+}
+.clear {
+	border: 0px;
+}
+.weight {
+	color: red;
+	text-align: right;
+	font-size: 1vw;
+
+}
+.number {
+	text-align: left;
+	font-size: 1vw;
+}
+.symbol {
+	text-align: center;
+	font-size: 3vw;
+	font-weight: bold;
+}
+
+.alkali {
+	background-color: #cc9900;
+}
+.noble {
+	background-color: orange;
+}
+.earth {
+	background-color: brown;
+}
+.transition {
+	background-color: #0033cc;
+}
+.nonmetal {
+	background-color: #66ff66;
+}
+.metalloid {
+	background-color: purple;
+}
+.post-transition {
+	background-color: #0033cc;
+}
+.lanthanide {
+	background-color: #00ccff;
+}
+.actinide {
+	background-color: #00ccff;
+}
